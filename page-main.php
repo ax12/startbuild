@@ -2,7 +2,7 @@
 <?php
 get_header('main');
 ?>
-<h1>Шаблон главной страницы (branch Master)</h1>
+<h1>Шаблон главной страницы (branch Master+1)</h1>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
