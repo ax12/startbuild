@@ -74,3 +74,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/includes/woocommerce.php';
 }
+
+/**
+ * custom file for help
+ *
+ */
+require get_template_directory() . '/includes/helpers.php';
