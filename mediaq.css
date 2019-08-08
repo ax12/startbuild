@@ -1,0 +1,29 @@
+/*!
+Author: Max
+Author URI: http://sitearsenal.ru
+
+*/
+/* xs (<=543px) */
+@media (max-width: 575px) {
+
+}
+
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* xl (>=1200) */
+@media (min-width: 1200px) {
+
+}
