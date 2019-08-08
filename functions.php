@@ -1,11 +1,11 @@
 <?php
 /**START adding carbon-fields**/
 add_action('after_setup_theme', 'crb_load');
-function crb_load()
-{
-    require_once('/includes/carbon-fields/vendor/autoload.php');
+function crb_load(){
+    require_once(get_template_directory() . '/includes/carbon-fields/vendor/autoload.php');
     \Carbon_Fields\Carbon_Fields::boot();
 }
+
 /**END adding carbon-fields**/
 
 /**START add my files for carbon-fields*/
@@ -15,10 +15,14 @@ function crb_register_custom_fields()
 {
     // путь к пользовательскому файлу определения поля (полей), измените под себя
     require get_template_directory() . '/includes/custom-field-options/matabox.php';
-    require  get_template_directory() .'/includes/custom-field-options/them-options.php';
+    require get_template_directory() . '/includes/custom-field-options/them-options.php';
 }
 
 /**END adding developers files for carbon-fields*/
+
+/**END adding carbon-fields**/
+
+
 /**
  connect theme settings fom file theme-settings.php
  */
