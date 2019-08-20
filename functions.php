@@ -80,3 +80,8 @@ if ( class_exists( 'WooCommerce' ) ) {
  *
  */
 require get_template_directory() . '/includes/helpers.php';
+/**
+ *connect includes files for woo
+ */
+require get_template_directory() . '/woocommerce/includes/wc-functions.php';
+require get_template_directory() . '/woocommerce/includes/wc-functions-remove.php';
