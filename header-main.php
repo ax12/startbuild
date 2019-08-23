@@ -1,15 +1,4 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package startbuild
- */
 
-?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -25,6 +14,31 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sitearsenal' ); ?></a>
 
 	<header id="masthead" class="site-header">
+        <div class="container-fluid">
+        <div class="row toolbar">
+            <div class="col-md-4">Офис — г. Екатеринбург, ул. Чайковского, 16, оф. 9</div>
+            <div class="col-md-4">Склад — г. Екатеринбург, пер. Базовый, 47</div>
+            <div class="col-md-4"><i class="fas fa-search"></i> Поиск</div>
+            <div class="search">
+
+                <input class="search_box" type="checkbox" id="search_box">
+                <label class="icon-search" for="search_box"><span class="fas fa-search" aria-hidden="true"></span></label>
+                <div class="search_form">
+                    <form method="POST" action="<?php esc_url( home_url( '/' ) );?>">
+                        <input type="text" value="<?php get_search_query();?>" name="s" placeholder="Искать...">
+                        <input type="submit" value="Поиск">
+                    </form>
+                    <div class="search-result"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        </div><!--        end container-fluid-->
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
