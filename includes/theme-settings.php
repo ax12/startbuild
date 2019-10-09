@@ -36,6 +36,7 @@ if (!function_exists('sitearsenal_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(array(
             'menu-1' => esc_html__('Primary', 'sitearsenal'),
+            'fazan_menu' => esc_html__('TOP', 'sitearsenal'),
         ));
 
         /*

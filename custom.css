@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Lifehack';
+    src: local('Lifehack Basic Regular'), local('Lifehack-Basic-Regular'),
+    url('fonts/LifehackBasic-Regular.woff2') format('woff2'),
+    url('fonts/LifehackBasic-Regular.woff') format('woff'),
+    url('fonts/LifehackBasic-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.mx-head-row {
+    height: 100px;
+    background-color: #fad8cf;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.navbar-light {
+    color: #0c0c0c !important;
+}
