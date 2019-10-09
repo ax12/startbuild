@@ -85,3 +85,15 @@ require get_template_directory() . '/includes/helpers.php';
  */
 require get_template_directory() . '/woocommerce/includes/wc-functions.php';
 require get_template_directory() . '/woocommerce/includes/wc-functions-remove.php';
+
+
+//change minu ites <li> clasess
+
+// Подключение bootstrap navwalker
+if ( ! file_exists( get_template_directory() . '/wp-bootstrap-navwalker.php' ) ) {
+    // file does not exist... return an error.
+    return new WP_Error( 'wp-bootstrap-navwalker-missing', __( 'It appears the wp-bootstrap-navwalker.php file may be missing.', 'wp-bootstrap-navwalker' ) );
+} else {
+    // file exists... require it.
+    require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
+}
