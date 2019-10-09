@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css");
+
 @font-face {
     font-family: 'Lifehack';
     src: local('Lifehack Basic Regular'), local('Lifehack-Basic-Regular'),
@@ -7,14 +9,47 @@
     font-weight: 400;
     font-style: normal;
 }
-
+body {
+    font-family: Ubuntu;
+}
 
 .mx-head-row {
-    height: 100px;
+    height: 120px;
     background-color: #fad8cf;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 700;
 }
 .navbar-light {
     color: #0c0c0c !important;
+}
+.mx-row-location {
+    min-height: 30px;
+    background-color: #7d3b00;
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    font-weight: 700;
+    display: block;
+    margin-right: 10px;
+
+}
+.mx-row-location span {
+    margin-right: 15px;
+}
+.mx-awesom {
+    font-size: 12px;
+    color: #360d00;
+}
+
+.mx-head-main {
+
+   background-color: #fad8cf;
+   font-weight: 700;
+
+}
+.main-header-row {
+    background-image: url(/wp-content/themes/sitearsenal/img/row.png); /* Путь к фоновому рисунку */
+    background-position: left bottom; /* Положение фона */
+    background-repeat: repeat-x; /* Повторяем фон по горизонтали */
 }

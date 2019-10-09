@@ -56,7 +56,32 @@
 
                     </nav><!-- #site-navigation -->
                 </div>
+            </div> <!--end row-->
+
+            <div class="row ">
+                <div class="col-md-12 mx-row-location text-center">
+                    <a class="text-light text-decoration-none" href="tel:<?php echo carbon_get_theme_option( 'crb_telephone' ); ?>"> <i class="fas fa-phone-alt mx-awesom"></i> <span> <?php echo carbon_get_theme_option( 'crb_telephone' ); ?></span></a>
+
+                    <i class="fas fa-map-marker-alt mx-awesom"></i> <span> <?php echo carbon_get_theme_option( 'crb_address' ); ?></span>
+
+                    <i class="fas fa-clock mx-awesom"></i> <span> <?php echo carbon_get_theme_option( 'crb_hours' ); ?></span>
+                </div>
+            </div>
+            <div class="row mx-head-main main-header-row">
+                <div class="col-md-2 p-0 col-3">
+                    <img class="float-left" src="<?php echo get_template_directory_uri() . '/img/left_img.png' ?>" alt="">
+                </div>
+                <div class="col-md-8 col-6  p-0">
+                   <img class="mx-auto d-block" src="<?php echo get_template_directory_uri() . '/img/fazan.png' ?>" alt="">
+
+                </div>
+
+                <div class="col-md-2 p-0 col-3">
+                    <img class="float-right" src="<?php echo get_template_directory_uri() . '/img/right_img.png' ?>" alt="">
+                </div>
+
+            </div>
         </header><!-- #masthead -->
-        </div> <!--end row-->
+
     </div><!--end container fluid-->
 <div id="content" class="site-content">
