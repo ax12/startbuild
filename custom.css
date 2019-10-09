@@ -9,9 +9,7 @@
     font-weight: 400;
     font-style: normal;
 }
-body {
-    font-family: Ubuntu;
-}
+
 
 .mx-head-row {
     height: 120px;
@@ -52,4 +50,8 @@ body {
     background-image: url(/wp-content/themes/sitearsenal/img/row.png); /* Путь к фоновому рисунку */
     background-position: left bottom; /* Положение фона */
     background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+.row-about-us {
+    height: 615px;
+    background-color: #fad8cf;
 }

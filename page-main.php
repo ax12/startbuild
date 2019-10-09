@@ -3,23 +3,15 @@
 get_header('main');
 ?>
 
-    <h1>Шаблон главной страницы (branch woo + 1)</h1>
-
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main">
-
-            <?php
-            while (have_posts()) :
-                the_post();
-
-                get_template_part('template-parts/content', 'page');
+    <div class="container-fluid">
+        <div id="content">
+            <div class="row row-about-us"></div>
 
 
-            endwhile; // End of the loop.
-            ?>
+        </div>
+    </div>
 
-        </main><!-- #main -->
-    </div><!-- #primary -->
+
 
 <?php
 get_footer();
