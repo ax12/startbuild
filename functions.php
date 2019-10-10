@@ -97,3 +97,7 @@ if ( ! file_exists( get_template_directory() . '/wp-bootstrap-navwalker.php' ) )
     // file exists... require it.
     require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 }
+
+//отключение текстового редактора TinyMCE
+
+require_once get_template_directory() . '/includes/disable_editor_wp.php';
