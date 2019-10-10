@@ -9,8 +9,15 @@
     font-weight: 400;
     font-style: normal;
 }
-
-
+h2 {
+    font-family: Lifehack, serif;
+    font-size: 60px;
+}
+p {
+    font-family: Ubuntu, serif;
+    font-size: 24px;
+    line-height: 40px;
+}
 .mx-head-row {
     height: 120px;
     background-color: #fad8cf;
@@ -52,6 +59,21 @@
     background-repeat: repeat-x; /* Повторяем фон по горизонтали */
 }
 .row-about-us {
-    height: 615px;
+    height: 500px;
     background-color: #fad8cf;
+}
+.mx-btn-color {
+    background-color: #7a9050;
+    border-color: #7a9050;
+}
+.mx-square-line {
+    background-image: url(/wp-content/themes/sitearsenal/img/square-line.png); /* Путь к фоновому рисунку */
+    width: 387px;
+    height: 348px;
+    text-align:center;
+    line-height: 348px;
+    color: #fad8cf;
+    font-family: Lifehack, serif;
+    font-size: 30px;
+
 }
